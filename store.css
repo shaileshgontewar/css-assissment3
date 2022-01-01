@@ -1,0 +1,165 @@
+body {
+  background-image: url("texture.jpg");
+}
+.head1 {
+  background-color: aqua;
+  width: 30%;
+  height: 100px;
+  padding: 20px;
+  font-size: 28px;
+  outline: 4px solid black;
+  margin-left: 33%;
+  border-radius: 20px;
+  outline: 4px solid orangered;
+  text-align: center;
+  box-shadow: 13px 14px 3px tomato;
+}
+hr {
+  height: 2px;
+  background-color: black;
+}
+.par1 {
+  display: flex;
+  position: relative;
+  height: 700px;
+  padding: 20px;
+  margin: 10px;
+  border-style: solid;
+  border-color: yellowgreen;
+}
+.ch1 {
+  background-color: white;
+  width: 18%;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 28px;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  outline: 4px solid orangered;
+  text-align: center;
+  box-shadow: 13px 14px 3px tomato;
+}
+.ch2 {
+  background-color: white;
+  width: 18%;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  outline: 4px solid orangered;
+  text-align: center;
+  box-shadow: 13px 14px 3px tomato;
+}
+.ch3 {
+  background-color: white;
+  width: 18%;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 22px;
+  top: 360px;
+  position: absolute;
+  left: 10px;
+  outline: 4px solid orangered;
+  text-align: center;
+  box-shadow: 13px 14px 3px tomato;
+}
+.ch4 {
+  background-color: white;
+  width: 18%;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 360px;
+  text-align: center;
+  outline: 4px solid orangered;
+  box-shadow: 13px 14px 3px tomato;
+  text-shadow: 2px 2px 4px red;
+}
+.ch4 > button {
+  background-color: seagreen;
+  border-radius: 20px;
+}
+.offer {
+  background-color: chartreuse;
+  padding: 15px;
+  font-size: 22px;
+  width: 38%;
+  height: 100px;
+  margin: 10px;
+  position: fixed;
+  left: 380px;
+  bottom: 200px;
+  outline: 4px solid orangered;
+  box-shadow: 13px 14px 3px tomato;
+  text-shadow: 2px 2px 4px red;
+  border-radius: 28px;
+  z-index: 1;
+}
+.offer > .right-text {
+  position: relative;
+  left: 250px;
+  bottom: 80px;
+}
+.par2 {
+  display: flex;
+  background-color: rgb(191, 230, 113);
+  height: 600px;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  padding: 10px;
+  position: relative;
+  outline: 4px solid purple;
+}
+.par2 > h3 {
+  height: 50px;
+  width: 300px;
+  position: absolute;
+  top: 0px;
+  font-size: 30px;
+  left: 28%;
+}
+.cha1 {
+  background-color: yellow;
+  width: 40%;
+  height: 220px;
+  padding: 10px;
+  font-size: 15px;
+  margin: 10px;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  text-align: center;
+}
+.cha2 {
+  background-color: yellow;
+  width: 40%;
+  height: 220px;
+  padding: 10px;
+  font-size: 15px;
+  margin: 10px;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  text-align: center;
+}
+.cha3 {
+  background-color: yellow;
+  width: 82%;
+  height: 200px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  position: absolute;
+  top: 365px;
+  left: 50px;
+  right: 40px;
+  text-align: center;
+}
